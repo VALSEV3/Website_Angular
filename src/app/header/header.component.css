@@ -1,0 +1,9 @@
+:host {
+  display: block;
+}
+
+.navbar{
+  position: relative;
+  z-index: 2;
+  color: white;
+}

@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+overflow-x: hidden;
+display:flex;
+background-color:rgb(49, 49, 49);
+flex-wrap: wrap;
+text-wrap: wrap;
+
+}
+::-webkit-scrollbar {
+  width: 12px;
+
+  }
+  ::-webkit-scrollbar-track-piece  {
+  background-color:rgb(49, 49, 49)
+  }
+  ::-webkit-scrollbar-thumb:vertical {
+
+  border-radius: 30px;
+  background-color:black;
+  }
+

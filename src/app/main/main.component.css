@@ -1,0 +1,66 @@
+:host {
+  display: block;
+}
+
+.main {
+  max-width: 100%;
+  min-height: 100%;
+  margin-bottom: 30px;
+  padding: 10px; /* Added padding for mobile view */
+  box-sizing: border-box;
+
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(https://wallpapers.com/images/hd/coding-background-9izlympnd0ovmpli.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(7px);
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px; /* Added padding for spacing */
+  box-sizing: border-box;
+  text-align: center; /* Center text for better readability on mobile */
+}
+
+.img {
+  width: 100%;
+  margin-bottom: 20px; /* Add margin for spacing on mobile */
+}
+
+.img img {
+  border-radius: 40px;
+  width: 100%; /* Ensure the image scales to full width on mobile */
+  max-width: 400px; /* Restrict maximum width for large screens */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.text {
+  width: 100%;
+}
+
+.text h1 {
+  font-size: 2rem; /* Adjust font size for mobile */
+  margin-bottom: 20px;
+}
+
+.text p {
+  font-size: 1.25rem; /* Slightly smaller font for readability */
+  max-width: 600px; /* Limit width for readability */
+  margin-bottom: 30px;
+}
